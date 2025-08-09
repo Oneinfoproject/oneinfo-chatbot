@@ -91,7 +91,7 @@ async def cvn_chatbot(user_id: str, query: str):
 
         active_session_ids.add(user_id)
 
-        scheduler.add_job(delete_session_history, 'interval', seconds=100, args=[user_id])
+        scheduler.add_job(delete_session_history, 'interval', hours=24, args=[user_id])
         print(f"Deletion scheduled for session ID '{user_id}' every 100 seconds.")
 
 

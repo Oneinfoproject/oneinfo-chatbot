@@ -8,3 +8,4 @@ apscheduler
 python-dotenv
 google-generativeai
 langchain-google-genai
+langchain-openai

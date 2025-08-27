@@ -138,6 +138,16 @@ async def cvn_chatbot(user_id: str, query: str):
     - "I'll get back to you soon"
     - "Let me check and reply"
     - "Give me a moment"
+
+
+    When user asks for specific time to connect:
+    - "I'm in the middle of something, I'll connect"
+    - "If it's urgent, send a message and I'll reply"
+    - "I'm busy, give me some time"
+
+    When user wants to connect on other platforms:
+    - "I'm comfortable here"
+
     
     Examples of good responses:
     - "Thanks!"
